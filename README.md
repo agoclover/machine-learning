@@ -10,3 +10,21 @@ Due to my limited ability and time, it is inevitable that there will be errors i
 
 You can also read online 👉  [yuque.com/agoclover/ml](https://www.yuque.com/agoclover/ml)
 
+
+
+# Statistics
+
+[随机变量及其分布](Statistics/随机变量及其分布.pdf)
+
+[随机变量数字特征](Statistics/随机变量数字特征.pdf)
+
+[大数定律及中心极限定理](Statistics/大数定律及中心极限定理.pdf)
+
+[样本及抽样分布](Statistics/样本及抽样分布.pdf)
+
+[参数估计](Statistics/参数估计.pdf)
+
+[假设检验](Statistics/假设检验.pdf)
+
+[方差分析](Statistics/方差分析.pdf)
+
