@@ -4,13 +4,12 @@
 
 **笔记标题**：MIT_LA_Lecture1-3
 
-**笔记版本**：v1.2
+**笔记版本**：v1.2.1
 
 **对于文档的说明**：
 
-1. 你可以通过浏览目录进行更方便高效地浏览。
+1. 你可以在我的Github[仓库](https://github.com/agoclover/machine_learning/tree/master/Linear_algebra)中下载本笔记的Markdwon源文档，并通过浏览目录进行更方便高效地浏览；也欢迎在[知乎文章](https://zhuanlan.zhihu.com/p/74057727)中进行浏览。
 2. 本笔记参考的课程为MIT Linear Algebra（麻省理工线性代数），本课程在[网易公开课](http://open.163.com/special/opencourse/daishu.html)、[Bilibili](https://www.bilibili.com/video/av4042095)和[youtube](https://www.youtube.com/watch?v=ZK3O402wf1c&list=PLE7DDD91010BC51F8&index=1)等网站上都有视频资源，读者可以选择合适的平台观看。
-3. 本系列笔记将会发布在作者的[Github仓库](https://github.com/agoclover/machine_learning/tree/master/Linear_algebra)中，也会在知乎中进行同步。
 4. 本笔记并未完全按照视频课的内容记录，添加了许多自己的理解、资料的补充和顺序的调整。
 5. 本系列笔记在不断更新，已经发布的笔记也会偶尔进行内容更新，版本号可以在文件标题或说明的开头查看，你可以通过Github的commit信息来查看笔记更新内容。
 6. 如果你对笔记内容有好的建议，请提出来，笔者在这里表示感谢。
