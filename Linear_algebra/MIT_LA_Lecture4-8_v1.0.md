@@ -8,7 +8,7 @@
 
 **对于文档的说明**：
 
-1. 你可以在我的Github[仓库](https://github.com/agoclover/machine_learning/tree/master/Linear_algebra)中下载本笔记的Markdwon源文档，并通过浏览目录进行更方便高效地浏览；也欢迎在[知乎文章](https://zhuanlan.zhihu.com/p/74057727)中进行浏览。
+1. 你可以在我的Github[仓库](https://github.com/agoclover/machine_learning/tree/master/Linear_algebra)中下载本笔记的Markdwon源文档，并通过浏览目录进行更方便高效地浏览；也欢迎在[知乎文章](https://zhuanlan.zhihu.com/p/74532717)中进行浏览。
 2. 本笔记参考的课程为MIT Linear Algebra（麻省理工线性代数），本课程在[网易公开课](http://open.163.com/special/opencourse/daishu.html)、[Bilibili](https://www.bilibili.com/video/av4042095)和[youtube](https://www.youtube.com/watch?v=ZK3O402wf1c&list=PLE7DDD91010BC51F8&index=1)等网站上都有视频资源，读者可以选择合适的平台观看。
 3. 本笔记并未完全按照视频课的内容记录，添加了许多自己的理解、资料的补充和顺序的调整。
 4. 本系列笔记在不断更新，已经发布的笔记也会偶尔进行内容更新，版本号可以在文件标题或说明的开头查看，你可以通过Github的commit信息来查看笔记更新内容。
@@ -193,7 +193,7 @@ $$
   0 & 0 & 1
 	\end{matrix}
 \right]
-\tag{3}
+\tag{8}
 $$
 
 # 4.2 高斯消元算法复杂度
@@ -225,7 +225,7 @@ $$
 还有比如我们刚刚学到的：
 $$
 A{ A }^{ -1 }=I\overset { T }{ \rightarrow  } { \left( { A }^{ -1 } \right)  }^{ T }{ A }^{ T }=I\rightarrow { \left( { A }^{ T } \right)  }^{ -1 }={ \left( { A }^{ -1 } \right)  }^{ T }
-\tag{4}
+\tag{9}
 $$
 当然，还有一些之后会学到的：
 
@@ -263,7 +263,7 @@ $$
 我们考虑 $$ n=3$$时的置换矩阵，一共有以下6个：
 $$
 \qquad \left[ \begin{matrix} 1 &  &  \\  & 1 &  \\  &  & 1 \end{matrix} \right] \left[ \begin{matrix} 1 &  &  \\  &  & 1 \\  & 1 &  \end{matrix} \right] \left[ \begin{matrix}  & 1 &  \\ 1 &  &  \\  &  & 1 \end{matrix} \right] \left[ \begin{matrix}  & 1 &  \\  &  & 1 \\ 1 &  &  \end{matrix} \right] \left[ \begin{matrix}  &  & 1 \\ 1 &  &  \\  & 1 &  \end{matrix} \right] \left[ \begin{matrix}  &  & 1 \\  & 1 &  \\ 1 &  &  \end{matrix} \right] 
-\tag{5}
+\tag{10}
 $$
 相应地，左乘分别代表不变，交换2、3行，交换1、2行等；右乘分别代表不变，交换2、3列，交换1、2列等。
 
@@ -300,7 +300,7 @@ $$
 $$
 若\vec { a } ,\vec { b } \in V，则\vec { a } +\vec { b } \in V；\\
 若\vec { a } \in V，\lambda \in R，则\lambda \vec { a } \in V。
-\tag{6}
+\tag{11}
 $$
 当然，我们这里前提还是以有序数组，即向量为对象考虑的，对于一般化的向量空间，我们会在后面介绍。
 
@@ -339,7 +339,7 @@ $$
 -  $${ \vec { a }  }_{ 1 },{ \vec { a }  }_{ 2 },...,{ \vec { a }  }_{ r }$$ 线性无关；
 -  $$V$$ 中任一向量都可由 $${ \vec { a }  }_{ 1 },{ \vec { a }  }_{ 2 },...,{ \vec { a }  }_{ r }$$ 线性表示，
 
-那么，向量组 $${ \vec { a }  }_{ 1 },{ \vec { a }  }_{ 2 },...,{ \vec { a }  }_{ r }$$ 就成为向量空间V的一个**基**， $$r$$ 称为向量空间V的**维数** $$dim \space V$$ ，并称 $$V$$ 为 $$r$$ 维向量空间。多说一句，如果 $${ \vec { a }  }_{ 1 }$$ 是m维列向量，那么我们通常称 $$V$$ 为 $$R^m$$ 上的 $$r$$ 维向量空间。
+那么，向量组 $${ \vec { a }  }_{ 1 },{ \vec { a }  }_{ 2 },...,{ \vec { a }  }_{ r }$$ 就称为向量空间V的一个**基**， $$r$$ 称为向量空间V的**维数** $$dim \space V$$ ，并称 $$V$$ 为 $$r$$ 维向量空间。多说一句，如果 $${ \vec { a }  }_{ 1 }$$ 是m维列向量，那么我们通常称 $$V$$ 为 $$R^m$$ 上的 $$r$$ 维向量空间。
 
 如果向量空间 $$V$$ 没有基，那么 $$V$$ 的维数是0。0维向量空间只含一个零向量 $$\vec{0}$$。
 
@@ -359,7 +359,7 @@ $$C(A)$$的维度等于矩阵 $$A$$ 的列秩，最大为 $$min(m,n)$$ 。即：
 
 $$
 dim \space C(A) = rank(A) ≤ min(m,n)
-\tag{7}
+\tag{12}
 $$
 列空间 $$C(A)$$ 的一组自然基底是矩阵 $$A$$ 的列向量的最大线性无关组。
 
@@ -393,7 +393,7 @@ $$
 	{b}_{4}
 	\end{matrix}
 \right]
-\tag{8}
+\tag{13}
 $$
 我们很容易验证列空间 $$C(A)$$ 是一个向量空间。
 
@@ -451,7 +451,7 @@ $$
 	0
 	\end{matrix}
 \right]
-\tag{9}
+\tag{14}
 $$
 很明显，一个解为 $$\vec{x}={[-1,-1,1]}^{T}$$ ，当然所有 $$k\vec{x}$$ 也都是解，那么还有与 $$\vec{x}$$ 不共线的解吗？
 
@@ -459,7 +459,7 @@ $$
 
 我们知道 $$A$$ 三个列向量的前两个列向量线性无关，也就是前两列是 $$C(A)$$ 的一个基，第三列可以表示成前两列的线性组合：
 $$
-\vec{a_3}=k_1\vec{a_1}+k_2\vec{a_2}\tag{10}
+\vec{a_3}=k_1\vec{a_1}+k_2\vec{a_2}\tag{15}
 $$
 这种表示方法一定是唯一的。因为若有 $$\vec{a_3}=c_1\vec{a_1}+c_2\vec{a_2}$$ ，且 $${[k_1,k_2]}^T≠{[c_1,c_2]}^T$$ ，那么两式相减，我们可以得到 $$\vec{0}=(c_1-k_1)\vec{a_1}+(c_2-k_2)\vec{a_2}$$ ，又因为 $$a_1,a_2$$ 线性无关，所以只有系数都为0时，其线性组合才为 $$\vec0$$ ，所以得到 $$c_1=k_1$$ ， $$c_2=k_2$$ ，这和我们的假设矛盾，即证明了（10）的表示方法一定是唯一的。
 
@@ -479,7 +479,7 @@ $$
 我们任意从后面 $$n-r$$ 个列向量中取某个 $$a_k$$ 系数为1，使其他 $$n-r-1$$ 个系数均为0，同样的分析思路，我们有使
 $$
 \lambda_1\vec{a_1}+\lambda_2\vec{a_2}+...+\lambda_r\vec{a_r}+\vec{a_k}=\vec{0}
-\tag{11}
+\tag{16}
 $$
 成立的 $${[\lambda_1,\lambda_2,…,\lambda_r,0_{r+1},0_{k-1},0_k,0_{k+1},…,0_n]}^{T}$$ 是唯一的，由于我们假设的一般性，这样的列向量有 $$n-r$$ 个，也就是说至少有 $$n-r$$ 个线性无关的 $$n$$ 维向量在零空间中，即零空间至少 $$n-r$$ 维。
 
@@ -521,7 +521,7 @@ $$
   1
 	\end{matrix}
 \right]
-\tag{12}
+\tag{17}
 $$
 这下我们就能很容易看出为什么要取一个为1，其他都为0，目的就是为了一定能得到 $$n-r$$ 个线性无关且各自唯一表示的列向量。
 
@@ -530,7 +530,7 @@ $$
 也就是比如我们再随便给出一个列向量：
 $$
 {\vec{x}}^*={[\lambda_1,\lambda_2,...,\lambda_r,c_{r+1},c_{r+2},...,c_n]}^{T}
-\tag{13}
+\tag{18}
 $$
 
 
@@ -590,12 +590,12 @@ c_{r+1}
   0
 	\end{matrix}
 \right]
-\tag{14}
+\tag{19}
 $$
 简写为：
 $$
 {\vec{x}}^*= c_{r+1}\vec{x_{r+1}}+c_{r+2}\vec{x_{r+2}}+...+c_n\vec{x_{r+n}}+{\vec{x_s}}^*
-\tag{15}
+\tag{20}
 $$
 关键来了， $${\vec{x_s}}^*$$ 一定不是零向量，因为这是我们**假设要求的线性无关**。
 
@@ -606,16 +606,16 @@ A{\vec{x}}^*= c_{r+1}A\vec{x_{r+1}}+c_{r+2}A\vec{x_{r+2}}+...+c_nA\vec{x_{r+n}}+
 \vec0= c_{r+1}\vec0+c_{r+2}\vec0+...+c_n\vec0+A{\vec{x_s}}^*
 \\
 A{\vec{x_s}}^*=\vec0
-\tag{16}
+\tag{21}
 $$
 再以列向量的线性组合表示出来：
 $$
 {\lambda_{1}}^*\vec a_1+{\lambda_{2}}^*\vec a_2+...+{\lambda_{r}}^*\vec a_r+0\vec a_{r+1}+0\vec a_{r+2}+...+0\vec a_{n}=\vec{0}
-\tag{17}
+\tag{22}
 $$
 
 $$
-{\lambda_{1}}^*\vec a_1+{\lambda_{2}}^*\vec a_2+...+{\lambda_{r}}^*\vec a_r=\vec{0}\tag{18}
+{\lambda_{1}}^*\vec a_1+{\lambda_{2}}^*\vec a_2+...+{\lambda_{r}}^*\vec a_r=\vec{0}\tag{23}
 $$
 
 由（18）式，我们得到了 $$a_1,…,a_r$$ 线性相关，这和我们最开始的假定是矛盾的，所以我们由反证法得出，不存在更多线性无关的解了，也就是说 $$dim\space N(A)=n-r$$ ， $$r$$ 为 $$A$$ 的秩。
@@ -625,7 +625,7 @@ $$
 综合列空间，我们可以得到，对于 $$A_{mn}$$ ，若 $$rank(A)=r$$ ，则有：
 $$
 dim \space C(A)=r,dim \space N(A)=n-r
-\tag{19}
+\tag{24}
 $$
 
 列空间和零空间对于理解非齐次线性方程组的解是非常有帮助的，列空间告诉我们什么时候有解什么时候无解，零空间告诉我们，解的结构应该是什么样子。
@@ -662,8 +662,8 @@ A=
 	0 & 0 & 0 & 0
 	\end{matrix}
 \right]
-\tag{20}
 =R
+\tag{25}
 $$
 现在，记：
 $$
@@ -682,7 +682,7 @@ F_{r×(n-r)}=
 	0 & 2 
 	\end{matrix}
 \right]
-\tag{21}
+\tag{26}
 $$
 
 
@@ -695,7 +695,7 @@ R_{m×n}=
 	\vec0_{(m-r)×r} & \vec0_{(m-r)×(n-r)} 
 	\end{matrix}
 \right]
-\tag{22}
+\tag{27}
 $$
 设 $$N_{n×(n-r)}$$ 为：
 $$
@@ -706,7 +706,7 @@ N_{n×(n-r)}=
 	I_{n-r} 
 	\end{matrix}
 \right]
-\tag{23}
+\tag{28}
 $$
 
 
@@ -729,7 +729,7 @@ R_{m×n}N_{n×(n-r)}=
 	\end{matrix}
 \right]=
 \vec{0}
-\tag{24}
+\tag{29}
 $$
 
 
@@ -781,7 +781,7 @@ F=
 	1
 	\end{matrix}
 \right]
-\tag{25}
+\tag{30}
 $$
 由（23）可知解的形式为：
 $$
@@ -800,7 +800,7 @@ N_{3×1}=
 	1
 	\end{matrix}
 \right]
-\tag{26}
+\tag{31}
 $$
 所以原齐次线性方程组的通解为：
 $$
@@ -812,7 +812,7 @@ $$
 	1
 	\end{matrix}
 \right]
-\tag{27}
+\tag{32}
 $$
 其中， $$k$$ 为任意实数。
 
@@ -841,7 +841,7 @@ $$
 \begin{matrix} r=m<n \\ R=\left[ \begin{matrix} I & F \end{matrix} \right]  \\ 无穷解 \end{matrix} \space,\space 
 \begin{matrix} r=n<m \\ R=\left[ \begin{matrix} I \\ 0 \end{matrix} \right]  \\ 无解或一解 \end{matrix} \space,\space 
 \begin{matrix} r<m,r<n \\ R=\begin{bmatrix} I & F \\ 0 & 0 \end{bmatrix} \\ 无解或无穷解 \end{matrix}
-\tag{28}
+\tag{33}
 $$
 
 
@@ -864,5 +864,5 @@ $$
 	\end{matrix}
 \right]+
 \vec{x}^*
-\tag{29}
+\tag{34}
 $$
