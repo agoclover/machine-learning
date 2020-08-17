@@ -14,7 +14,7 @@ You can also read online 👉  [yuque.com/agoclover/ml](https://www.yuque.com/ag
 
 # Statistics
 
-[随机变量及其分布](Statistics/随机变量及其分布.pdf)
+[随机变量及其分布](Statistics/随机变量及其分布.md)
 
 [随机变量数字特征](Statistics/随机变量数字特征.pdf)
 
