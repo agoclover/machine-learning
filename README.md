@@ -1,14 +1,14 @@
 # Machine Learning
 
-Thanks for reading this repository. If it's helpful to you, you can click ✨Star✨ to facilitate future search and reading.
+首先, 很感谢你的阅读, 评论以及关注, 如果你觉得本仓库对你有所帮助, 请给一个✨.
 
-In terms of content, this publication will update machine learning related learning documents from time to time, but I prefer to create my own knowledge system, so part of  contents may not be directly related to machine learning, or some that should be included but not involved (convex optimization), I hope you can understand it. The related content partly comes from my own learning and understanding, and partly comes from the Internet. Regarding the content of the quotation, I have marked the place, and I'd be appreciated if you can state the sources when citing the articles from this repository. 
+在内容上, 本仓库会不定期更新机器学习相关的学习文档, 但本人更想创建自己知识体系的知识库, 所以可能有些内容和机器学习关系并不直接 (比如运筹学的部分内容), 或者有些应该包含的内容却没有涉及 (比如凸优化), 希望读者可以理解. 仓库内容部分来自笔者自己的学习感悟, 部分来自于互联网. 对于引用的内容，我都尽可能地标明了来源, 也希望读者在引用本知识库文章时也能著名来源. 
 
-In terms of format, the writing is mainly written in Markdown, and I also tried to achieve the unity of the format. You can easily browse through the document catalog of titles, the hierarchical title catalog on the right (in yuque) and the hyperlinks inside the documents.
+在格式上, 主要以 Markdown 进行书写, 笔者也尽力做到了内容格式的统一. 
 
-Due to my limited ability and time, it is inevitable that there will be errors in content and format. I hope readers can point out that I will modify it in time.
+由于本人能力和时间有限, 难免会出现内容和格式上的错误, 希望读者能指出 我会及时修改. 笔者也欢迎学术问题的探讨.
 
-You can also read online 👉  [yuque.com/agoclover/ml](https://www.yuque.com/agoclover/ml)
+你也可以通过以下网址在线阅读 👉  [yuque.com/agoclover/ml](https://www.yuque.com/agoclover/ml)
 
 
 
