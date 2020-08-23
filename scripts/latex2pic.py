@@ -1,8 +1,9 @@
 import re
+import sys
 from urllib.parse import quote
 
 if __name__ == "__main__":
-    text = open("/Users/amos/Learning/machine-learning/Statistics/随机变量及其分布.md",encoding="utf-8").read()
+    text = open(sys.argv[1],encoding="utf-8").read()
 
     parts = text.split("$$")
 
@@ -21,5 +22,5 @@ if __name__ == "__main__":
         lines[lid] = ' '.join(parts)
     text_out = "\n".join(lines)
 
-    with open("/Users/amos/Learning/machine-learning/Statistics/随机变量及其分布_show.md", "w", encoding='utf-8') as f:
+    with open(sys.argv[1]+"_show.md", "w", encoding='utf-8') as f:
         f.write(text_out)

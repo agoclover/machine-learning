@@ -16,7 +16,7 @@ You can also read online 👉  [yuque.com/agoclover/ml](https://www.yuque.com/ag
 
 [随机变量及其分布](Statistics/随机变量及其分布_show.md)
 
-[随机变量数字特征](Statistics/随机变量数字特征.pdf)
+[随机变量数字特征](Statistics/随机变量数字特征.md_show.md)
 
 [大数定律及中心极限定理](Statistics/大数定律及中心极限定理.pdf)
 
