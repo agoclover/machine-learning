@@ -22,5 +22,8 @@ if __name__ == "__main__":
         lines[lid] = ' '.join(parts)
     text_out = "\n".join(lines)
 
-    with open(sys.argv[1]+"_show.md", "w", encoding='utf-8') as f:
+    filename = sys.argv[1].split(".")[0] + "_show.md"
+    print(filename)
+
+    with open(filename, "w", encoding='utf-8') as f:
         f.write(text_out)
