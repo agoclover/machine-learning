@@ -100,8 +100,4 @@
 ## 总体不服从正态分布
 
 
-只要样本容量足够 
-
-![math](https://render.githubusercontent.com/render/math?math=n%3E30)
-
-, 即使总体不服从正态分布, 样本均值的抽样分布也会近似服从正态分布. 
+只要样本容量足够 ![math](https://render.githubusercontent.com/render/math?math=n%3E30), 即使总体不服从正态分布, 样本均值的抽样分布也会近似服从正态分布. 
