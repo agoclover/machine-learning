@@ -14,7 +14,7 @@
 
 # Statistics
 
-[随机变量及其分布](Statistics/随机变量及其分布_show.md)
+[随机变量及其分布](Statistics/随机变量及其分布_show_toc.md)
 
 [随机变量数字特征](Statistics/随机变量数字特征_show.md)
 
