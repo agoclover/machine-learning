@@ -1,4 +1,5 @@
 <a name="index">**Index**</a>
+
 <a href="#0">随机变量及其分布</a>  
 <a href="#1">随机试验</a>  
 <a href="#2">样本空间</a>  
@@ -14,6 +15,7 @@
 &emsp;<a href="#12">均匀分布</a>  
 &emsp;<a href="#13">指数分布</a>  
 &emsp;<a href="#14">正态分布</a>  
+
 # <a name="0">随机变量及其分布</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
 # <a name="1">随机试验</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
