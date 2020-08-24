@@ -1,4 +1,4 @@
-<a name="index">**Index**</a>
+<a name="index">**Contents**</a>
 
 <a href="#0">随机变量及其分布</a>  
 <a href="#1">随机试验</a>  
