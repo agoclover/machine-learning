@@ -24,7 +24,17 @@
 
 [方差分析](Statistics/方差分析_show_toc.md)
 
+# Linear Algebra
 
+## MIT Linear Algebra
+
+[MIT_LA_Lecture1-3](LinearAlgebra/MIT_LA_Lecture1-3.html)
+
+[MIT_LA_Lecture4-8](LinearAlgebra/MIT_LA_Lecture4-8.html)
+
+[MIT_LA_Lecture9-10](LinearAlgebra/MIT_LA_Lecture9-10.html)
+
+[MIT_LA_Lecture11](LinearAlgebra/MIT_LA_Lecture11.html)
 
 **To be continued ...**
 
