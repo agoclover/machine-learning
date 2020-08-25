@@ -28,13 +28,13 @@
 
 ## MIT Linear Algebra
 
-[MIT_LA_Lecture1-3](LinearAlgebra/MIT_LA_Lecture1-3.html)
+[MIT_LA_Lecture1-3](https://htmlpreview.github.io/?https://github.com/agoclover/machine-learning/blob/master/LinearAlgebra/MIT_LA_Lecture1-3.html#%E4%B8%A4%E7%A7%8D%E6%B6%88%E5%85%83%E6%B3%95)
 
-[MIT_LA_Lecture4-8](LinearAlgebra/MIT_LA_Lecture4-8.html)
+[MIT_LA_Lecture4-8](http://htmlpreview.github.io/?https://github.com/agoclover/machine-learning/blob/master/LinearAlgebra/MIT_LA_Lecture4-8.html)
 
-[MIT_LA_Lecture9-10](LinearAlgebra/MIT_LA_Lecture9-10.html)
+[MIT_LA_Lecture9-10](http://htmlpreview.github.io/?https://github.com/agoclover/machine-learning/blob/master/LinearAlgebra/MIT_LA_Lecture9-10.html)
 
-[MIT_LA_Lecture11](LinearAlgebra/MIT_LA_Lecture11.html)
+[MIT_LA_Lecture11](http://htmlpreview.github.io/?https://github.com/agoclover/machine-learning/blob/master/LinearAlgebra/MIT_LA_Lecture11.html)
 
 **To be continued ...**
 
