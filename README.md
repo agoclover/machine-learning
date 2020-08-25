@@ -18,11 +18,11 @@
 
 [样本及抽样分布](Statistics/样本及抽样分布_show_toc.md)
 
-[参数估计](Statistics/参数估计.pdf)
+[参数估计](Statistics/参数估计_show_toc.md)
 
-[假设检验](Statistics/假设检验.pdf)
+[假设检验](Statistics/假设检验_show_toc.md)
 
-[方差分析](Statistics/方差分析.pdf)
+[方差分析](Statistics/方差分析_show_toc.md)
 
 
 
