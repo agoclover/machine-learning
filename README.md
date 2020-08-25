@@ -36,6 +36,16 @@
 
 [MIT_LA_Lecture11](http://htmlpreview.github.io/?https://github.com/agoclover/machine-learning/blob/master/LinearAlgebra/MIT_LA_Lecture11.html)
 
+## 丘维声高等代数
+
+1 线性方程组和线性空间
+
+2 子空间, 基和维数
+
+3 子空间的交, 和与直和
+
+
+
 **To be continued ...**
 
 
