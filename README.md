@@ -38,11 +38,11 @@
 
 ## 丘维声高等代数
 
-1 线性方程组和线性空间
+[1 线性方程组和线性空间](http://htmlpreview.github.io/?https://github.com/agoclover/machine-learning/blob/master/LinearAlgebra/%E7%BA%BF%E6%80%A7%E7%A9%BA%E9%97%B4%E7%9F%A5%E8%AF%86%E6%A2%B3%E7%90%861.html)
 
-2 子空间, 基和维数
+[2 子空间, 基和维数](http://htmlpreview.github.io/?https://github.com/agoclover/machine-learning/blob/master/LinearAlgebra/%E7%BA%BF%E6%80%A7%E7%A9%BA%E9%97%B4%E7%9F%A5%E8%AF%86%E6%A2%B3%E7%90%862.html)
 
-3 子空间的交, 和与直和
+[3 子空间的交, 和与直和](http://htmlpreview.github.io/?https://github.com/agoclover/machine-learning/blob/master/LinearAlgebra/%E7%BA%BF%E6%80%A7%E7%A9%BA%E9%97%B4%E7%9F%A5%E8%AF%86%E6%A2%B3%E7%90%863.html)
 
 
 
